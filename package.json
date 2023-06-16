@@ -21,8 +21,11 @@
     "qwik": "qwik"
   },
   "devDependencies": {
+    "@auth/core": "^0.7.1",
     "@builder.io/qwik": "^1.1.5",
+    "@builder.io/qwik-auth": "~0.1.0",
     "@builder.io/qwik-city": "^1.1.5",
+    "@octokit/openapi-types": "^18.0.0",
     "@types/eslint": "8.40.0",
     "@types/node": "^20.2.5",
     "@typescript-eslint/eslint-plugin": "5.59.8",
@@ -34,5 +37,9 @@
     "undici": "5.22.1",
     "vite": "4.3.9",
     "vite-tsconfig-paths": "4.2.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.25.0",
+    "supabase-auth-helpers-qwik": "^0.0.3"
   }
 }
